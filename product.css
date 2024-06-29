@@ -1,0 +1,82 @@
+/* Centering the main title */
+h1 {
+    text-align: center;
+}
+
+/* Styling the horizontal rule */
+hr {
+    height: 5px;
+    background-color: brown;
+    border: none;
+}
+
+/* Styling the images */
+img {
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+/* Styling the product name */
+.name {
+    margin-left: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Styling the product price */
+.price {
+    margin-bottom: 10px;
+    margin-left: 20px;
+    color: #888;
+    font-size: 18px;
+    font-style: italic;
+}
+
+/* Styling the headings */
+h1, h2 {
+    font-family: 'Impact', serif;
+}
+
+/* Inline-block display for paragraphs within items */
+.item p {
+    display: block; /* Changed to block for better alignment */
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+/* Flexbox layout for the images container */
+.images {
+    display: flex;
+    flex-wrap: wrap; /* Allows items to wrap to the next line */
+    justify-content: center; /* Centers the items within the container */
+    gap: 10px; /* Adds space between items */
+    padding: 20px;
+    background-color: #f9f9f9; /* Light gray background for the container */
+    border-radius: 10px; /* Rounded corners for the container */
+}
+
+/* Styling for each item */
+.item {
+    background-color: #fff; /* White background for items */
+    padding: 15px;
+    border-radius: 10px; /* Rounded corners for items */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    text-align: center; /* Center-align text within items */
+    max-width: 250px; /* Limits the width of each item */
+    flex: 1 1 250px; /* Flex property for responsiveness */
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 0px -4px 15px rgba(0, 0, 0, 0.2);
+    margin-top: 20px; /* Add some space above the footer */
+}
+
+footer p {
+    margin: 0;
+    font-size: 16px;
+}

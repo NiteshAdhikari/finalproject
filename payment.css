@@ -1,0 +1,86 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    padding: 20px;
+    flex: 1; /* Ensure main content takes up available space */
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #4CAF50; /* Add some color to the title */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.payment-method {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.method {
+    background: #fff;
+    padding: 10px; 
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;  
+    transition: transform 0.3s, box-shadow 0.3s;  
+    width: 200px;  
+    height: 300px;  
+}
+
+.method:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.2);  
+}
+
+.logo {
+    width: 180px;  
+    height: auto;  
+    margin-bottom: 10px;
+    object-fit: contain;
+    transition: transform 0.3s;  
+}
+
+.qr {
+    width: 150px; 
+    height: auto;  
+    object-fit: contain;
+    border: 1px solid #ddd;
+    border-radius: 10px;  
+    padding: 10px;
+    background: #fff;
+}
+
+footer {
+    padding: 20px;
+    background: #333;
+    color: #fff;
+    text-align: center;
+    border-top: 5px solid #4CAF50;  
+    font-weight: bold; 
+    font-style: italic;  
+    width: 100%;
+    margin-top: auto;  
+}
+
+footer p {
+    margin: 0;
+    font-size: 16px;
+    letter-spacing: 1px;
+}

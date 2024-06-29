@@ -1,0 +1,36 @@
+body {    
+    background-image:url("https://media.istockphoto.com/id/1304225026/photo/top-view-of-mobile-phone-glasses-pen-and-notebook-written-with-about-us-on-wooden-background.jpg?s=612x612&w=0&k=20&c=YhbAlzZONGfWt-Qm5W10Z0-Z8waHkblhtZEbRh4E0bM=");
+    background-size: 100vw, 100vh;
+    
+}
+h1 {
+    font-size: 50px;
+    text-align: center;
+    color:blanchedalmond;
+}
+p1 {
+   
+    font-size:40px;
+    color: blanchedalmond;
+}
+p2 {
+    
+    font-size:40px;
+    color:blanchedalmond;
+}
+p3 {
+    text-align:center;
+    font-size:40px;
+    color: blanchedalmond;
+}
+footer {
+    text-align:center;
+    font-size:50px;
+    color:blanchedalmond;
+    margin-top:300px;
+}
+hr {
+    height: 5px;
+    background-color: brown;
+    border-color: brown;
+}

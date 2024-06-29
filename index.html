@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Sneaker Shop</title>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const imageElement = document.getElementById("current-image");
+            const button = document.getElementById("scroll-button");
+            let imageIndex = 0;
+
+            const images = [
+                 "C:/Users/Nitesh Adhikari/Desktop/shoes 11.png",
+                 "C:/Users/Nitesh Adhikari/Desktop/sneaker 111.png",
+                 "C:/Users/Nitesh Adhikari/Desktop/sneker11.11.png",
+                 "C:/Users/Nitesh Adhikari/Desktop/sneaker 1111.png"
+            ];
+
+            button.addEventListener("click", function () {
+                imageIndex++;
+                if (imageIndex >= images.length) {
+                    imageIndex = 0;
+                }
+                imageElement.src = images[imageIndex];
+            });
+        });
+    </script>
+    <link href="style.css" rel="stylesheet"/>
+</head>
+<body>
+    <main>
+        <h1>SneakerMandu</h1>
+        <h2>Est 2020</h2>
+        <h3>Serving the world with sneaker culture.</h3>
+        <hr>
+        <nav>
+            <ul>
+                <li><a href="About Us.html">About us</a></li> 
+                <li><a href="gallery.html">Products</a></li>
+                <li><a href="contact us.html">Contact</a></li> 
+                <li><a href="payment method.html">Payment</a></li>
+                
+            </ul>
+        </nav>
+        <div class="image-container">
+            <img id="current-image" src="shoes11.png">
+        </div>
+        <button id="scroll-button">Next Image</button>
+    </main>
+    <footer>
+        <P>Your happiness is our satisfaction</P>
+    </footer>
+</body>
+</html>
